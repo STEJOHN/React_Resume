@@ -10,17 +10,16 @@ import '../style.css';
 function Resume(){
     return (
         <body>
-        <Education/>
-        <Experience/>
         <Header/>
+        <Navbar/>
         <Main/>
         <Skills/>
-        <Navbar/>
+        <Experience/>
+        <Education/>         
         </body>
 
     );
 
 }
 
-
-
+export default Resume;
