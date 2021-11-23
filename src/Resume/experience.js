@@ -1,66 +1,8 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Stephen Johnson's Resume</title>
-    
-</head>
+import react from "react";
 
-<body>
-
-
-<div class="header">
-<h1><SPAN STYLE="font-weight: bold">Stephen </SPAN><SPAN STYLE="font-weight: lighter">Johnson</SPAN></h1>
-</div>
-
-<div class="navbar">
-	<a href="#skills">Skills</a>
-	<a href="#experience">Experience</a>
-	<a href="#education">Education</a>
-	<a href="https://www.linkedin.com/in/andrew-S-johnson-a92310213/">LinkedIn</a>
-	<a href="https://github.com/STEJOHN">GitHub</a>
-</div>
-
-
-
-<br>
-<br>
-
-
-
-<img src="./public/profile.jpeg" alt="my profile photo" style="width: 25%;">
-
-<br>
-<br>
-
-<div id="main">
-<p>
-Datacenter professional with seven years of information technology experience in delivering exceptional customer 
-satisfaction and managing overall operations. Proficient in maintaining, troubleshooting, and designing all aspects of 
-networks for government and private sector businesses including workstations, servers, phone systems, and core 
-infrastructure. Strong ability to recognize areas of improvement and implement cost-effective solutions. Able to develop 
-system documentation and create policies to meet the needs of dynamic and continuously changing environments. 
-</p>
-</div>
-
-<br>
-<br>
-	
-<div id="skills">
-<h2>Skills</h2> 
-<p>
-Operating Systems: Microsoft Windows (7, 8, 10), Microsoft Server (2003, 2008, 2012), Mac OS, Android, IOS, Ubuntu Linux<br>
-Hardware: Servers, Workstations, Cisco switches, SonicWALL firewalls, pfSense/FreeBSD based firewalls  <br>Software: 
-Microsoft Office, Office 365 Parallels Desktop , VMware, Hyper-V, Active Directory, Exchange, SQL, SMTK , Microsoft Azure , 
-GDCO </p>
-</div>
-
-
-<br>
-<br>
-
-<div id="experience">
+function Experience() {
+    return (
+<>
 <h2>Experience</h2>
 <ul>
 <p>
@@ -80,10 +22,7 @@ requirements</li>
 <li>Configuring network devices and fiber optic testing</li>
 
 <li>Collaboration with a diverse group of IT/CE professionals solve and troubleshoot DC issues</li>
-
 </p>
-
-
 
 
 <p>
@@ -109,9 +48,9 @@ achieve high production and quality assurance</li>
  <li>Ability to move and adapt quickly to all unique aspects of the SN campuses</li> 
 </p>
 
+
 <p>
 <h3>ATOS – San Antonio, TX Datacenter Technician October 2015 – May 2017</h3>
-
 
 <li>Respond to service tickets for a wide range of devices in a timely manner</li>
 
@@ -128,6 +67,8 @@ incidents</li>
 <li>Configured, installed, and administered network infrastructure</li> 
 </p>
 
+
+<p>
 <h3>City of Elmendorf – Elmendorf, Texas IT /Network Administrator July 2013 – July 2015</h3>
 
 <li>Supervised the successful overhaul of the entire network infrastructure that greatly increased productivity and 
@@ -150,24 +91,12 @@ uptime</li>
 <li>Developed website and payment processing interface for utility billing and automation</li> 
 
 <li>Managed IT operating budget of $75K</li> 
-
 </p>
-<ul>
-</div>
 
-
-<br>
-<br>
-
-<div id="education">
-<h2>Education</h2>
-<ul>
-<li>Our Lady of the Lake University- Information Systems</li>
-<li>San Antonio College – Criminal Justice</li>
-
-</div>
 </ul>
-<br>
-<br>
-</body>
-</html>
+</>
+   
+);
+}
+
+export default Experience;
