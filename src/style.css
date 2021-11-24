@@ -66,6 +66,10 @@ img {
   margin-right: auto;
 }
 
-#main {
-  margin-top: 35px;
+#main,
+#skills,
+#education,
+#experience {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
