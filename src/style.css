@@ -12,23 +12,26 @@ body {
 
 .header h1 {
   font-size: 45px;
-  animation: name 3s 1;
+  animation: name 4s 1;
 }
 
 @keyframes name {
   0% {
     color: black;
     margin-bottom: -40px;
+    text-align: center;
   }
 
   30% {
     letter-spacing: 25px;
-    margin-bottom: -40px;
+    margin-bottom: -70px;
+    text-align: center;
   }
 
   85% {
     letter-spacing: 8px;
-    margin-bottom: -40px;
+    margin-bottom: -70px;
+    text-align: center;
   }
 }
 
@@ -61,4 +64,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#main {
+  margin-top: 35px;
 }
